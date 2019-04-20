@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/oceanbackground"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lifeTextView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mandarinFishTextView"
+                android:layout_width="480dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Mandarin Fish"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/mandarinFishImageView"
+                android:layout_width="440dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                android:background="@drawable/primary_dark_border_for_mandarin_fish"
+                app:srcCompat="@drawable/mandarinfish"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="267dp" />
+
+            <TextView
+                android:id="@+id/mandarinDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• No scales"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/mandarinDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Pacific; Ryukyu south to Australia"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/mandarinDescTextView3"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• 1 of 2 species to make blue pigment"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/seahorseTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:text="Pygmy Seahorse"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/pygmySeahorseImageView"
+                android:layout_width="440dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:background="@drawable/primary_dark_border"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/pygmyseahorse"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="267dp" />
+
+            <TextView
+                android:id="@+id/seahorseDescTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• 0.55 - 1.06 inches"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/seahorseDescTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Southeast Asia"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/seahorseDescTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Discovered by a coral-dissecting guy"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/starfishTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:text="Crown of Thorns Starfish"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/starfishImageView"
+                android:layout_width="440dp"
+                android:layout_height="325.4dp"
+                android:layout_gravity="center"
+                android:background="@drawable/primary_dark_border"
+                app:srcCompat="@drawable/starfish" />
+
+            <TextView
+                android:id="@+id/starfishDescTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• You don't want to sit on this"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/starfishDescTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Most common in Australia"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/starfishDescTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• 9.8 - 13.8 inches"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/nudibranchTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:text="Nudibranch"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/nudibranchImageView"
+                android:layout_width="440dp"
+                android:layout_height="254dp"
+                android:layout_gravity="center"
+                android:background="@drawable/primary_dark_border"
+                app:srcCompat="@drawable/nudibranch" />
+
+            <TextView
+                android:id="@+id/nudibranchDescTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Soft-bodied marine gastropod mollusc"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/nudibranchDescTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Over 3000 species known"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/nudibranchDescTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="• Found virtually everywhere"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/lifeTextView"
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bottom_border"
+        android:gravity="center"
+        android:text="LIFE"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

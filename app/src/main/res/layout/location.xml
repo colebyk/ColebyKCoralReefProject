@@ -57,7 +57,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="42dp"
-        android:background="@drawable/lyra_reef_map_border"
+        android:background="@drawable/primary_dark_border"
         android:clipToPadding="true"
         android:gravity="bottom"
         android:orientation="vertical"

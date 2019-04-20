@@ -32,13 +32,15 @@
 
             <TextView
                 android:id="@+id/titleTextView"
-                android:layout_width="match_parent"
+                android:layout_width="440dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bottom_border"
                 android:gravity="center"
                 android:text="Lyra Coral Reef"
                 android:textColor="@color/blackText"
-                android:textStyle="bold"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/lifeBtn"
