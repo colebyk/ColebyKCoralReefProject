@@ -33,6 +33,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button sizeBtn = (Button) findViewById(R.id.sizeBtn);
+        sizeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, sizeActivity.class));
+
+            }
+        });
+
+        Button coralBtn = (Button) findViewById(R.id.coralBtn);
+        coralBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, coralActivity.class));
+
+            }
+        });
+
     }
 
 

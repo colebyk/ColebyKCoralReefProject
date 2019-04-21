@@ -21,6 +21,8 @@
         <activity android:name=".locationActivity"
             />
         <activity android:name=".lifeActivity" />
+        <activity android:name="sizeActivity" />
+        <activity android:name=".coralActivity"/>
     </application>
 
 </manifest>

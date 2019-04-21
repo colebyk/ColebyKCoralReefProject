@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oceanbackground">
+
+    <TextView
+        android:id="@+id/coralTextView"
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bottom_border"
+        android:gravity="center"
+        android:text="CORAL"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coralTextView">
+
+        <LinearLayout
+            android:id="@+id/coralLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bluePalmCoralTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Blue Palm Coral"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <ImageView
+                android:id="@+id/bluePalmCoralImageView"
+                android:layout_width="440dp"
+                android:layout_height="333dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/primary_dark_border"
+                android:cropToPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bluePalmCoralTextView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/bluepalmcoral" />
+
+            <TextView
+                android:id="@+id/bluePalmDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:text="• Non-photosynthetic"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/bluePalmDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:text="• Native to shallow Indonesian reefs"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/dactylotrochusTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:text="Dactylotrochus"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <ImageView
+                android:id="@+id/dactylotrochusImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/primary_dark_border"
+                app:srcCompat="@drawable/dactylotrochus1" />
+
+            <ImageView
+                android:id="@+id/dactylotrochusImageView2"
+                android:layout_width="440dp"
+                android:layout_height="355dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/primary_dark_border"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/dactylotrochus2" />
+
+            <TextView
+                android:id="@+id/dactylotrochusDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:text="• Red Sea, Guam, Hawaii"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/dactylotrochusDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:text="• Max height is 1.5 inches"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/dactylotrochusDescTextView3"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:text="• 240 to 2800 feet deep"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="89dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
