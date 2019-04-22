@@ -23,6 +23,7 @@
         <activity android:name=".lifeActivity" />
         <activity android:name="sizeActivity" />
         <activity android:name=".coralActivity"/>
+        <activity android:name=".importanceActivity"/>
     </application>
 
 </manifest>

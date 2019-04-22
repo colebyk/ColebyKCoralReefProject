@@ -51,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button importanceBtn = (Button) findViewById(R.id.importanceBtn);
+        importanceBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, importanceActivity.class));
+
+            }
+        });
+
     }
 
 

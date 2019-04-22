@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/oceanbackground"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/importanceTextView"
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bottom_border"
+        android:gravity="center"
+        android:text="IMPORTANCE"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/importanceTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/generalImportanceTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="General Importance"
+                android:textColor="@android:color/black"
+
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <TextView
+                android:id="@+id/genDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Protect coastlines"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/genDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Provide habitats and nutrients"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/genDescTextView3"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Records climatic events"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/threatsTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:text="Threats"
+                android:textColor="@android:color/black"
+
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <TextView
+                android:id="@+id/threatsDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Physical damage"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/threatsDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Pollution (toxins, nutrients, trash)"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/threatsDescTextView3"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Overfishing"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/threatsDescTextView4"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Coral harvesting (aquariums, jewelry)"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/protectionTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:text="Protection"
+                android:textColor="@android:color/black"
+
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <TextView
+                android:id="@+id/protectionDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• NOAA (National Oceanic and Atmospeheric Administration)"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/protectionDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Mapping and algal bloom detection"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/protectionDescTextView3"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Buoys"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/reversalTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:text="Damage Reversal"
+                android:textColor="@android:color/black"
+
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <TextView
+                android:id="@+id/reversalDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Reduction of global warming and human impact"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/miscTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="210dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="213dp"
+                android:layout_marginRight="213dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/top_border"
+                android:gravity="center"
+                android:text="Miscellaneous"
+                android:textColor="@android:color/black"
+
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coralTextView" />
+
+            <TextView
+                android:id="@+id/miscDescTextView"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• In charge: Papua New Guinea"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/miscDescTextView2"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• Life would suffer in and around Lyra Reef if it disappeared"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
